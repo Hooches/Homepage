@@ -17,9 +17,138 @@
   </header>
   <main>
     <section>
-      <h2>Einleitung</h2>
-      <p>Hier kommt deine Datenschutzerklärung. Bitte füge alle relevanten Informationen zur Datenverarbeitung und zum Datenschutz ein.</p>
-      <!-- Weitere Abschnitte hinzufügen -->
+      <h2>1. Einleitung</h2>
+      <p>Diese Datenschutzerklärung informiert über die Art, den Umfang und die Zwecke der Erhebung und Verwendung personenbezogener Daten durch die Gartenhelfer-App. Der Schutz Ihrer Privatsphäre ist uns wichtig. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften.</p>
+    </section>
+    
+    <section>
+      <h2>2. Verantwortliche Stelle</h2>
+      <p>
+        Verantwortlich für die Datenverarbeitung in dieser App ist:<br>
+        <strong>Name/Unternehmen:</strong> Philipp Loer<br>
+        <strong>Anschrift:</strong> Ezzostraße 3, 53359 Rheinbach<br>
+        <strong>E-Mail:</strong> p.loer@icloud.com<br>
+      </p>
+      <p>
+      </p>
+    </section>
+    
+    <section>
+      <h2>3. Rechtsgrundlagen der Verarbeitung</h2>
+      <p>
+        Die Verarbeitung Ihrer personenbezogenen Daten erfolgt auf Basis folgender Rechtsgrundlagen:<br>
+        - <strong>Einwilligung:</strong> Art. 6 Abs. 1 lit. a DSGVO<br>
+        - <strong>Vertragserfüllung:</strong> Art. 6 Abs. 1 lit. b DSGVO<br>
+        - <strong>Berechtigte Interessen:</strong> Art. 6 Abs. 1 lit. f DSGVO
+      </p>
+    </section>
+    
+    <section>
+      <h2>4. Erhobene Daten und Verwendungszweck</h2>
+      <h3>4.1 Lokal gespeicherte Daten</h3>
+      <p>
+        Die Gartenhelfer-App speichert Ihre Daten primär lokal auf Ihrem Gerät. Dazu gehören:<br>
+        - Informationen zu Ihren Gärten (Name, Layout, Pflanzenstandorte)<br>
+        - Pflanzendaten (Namen, Bilder, Pflanzzeiten, Pflegehinweise)<br>
+        - Pflegeaufgaben und deren Status<br>
+        - API-Schlüssel (verschlüsselt gespeichert)<br>
+        Diese Daten werden ausschließlich zur Bereitstellung der App-Funktionalität verwendet und verlassen Ihr Gerät nur, wenn Sie Funktionen nutzen, die externe APIs ansprechen.
+      </p>
+      <h3>4.2 Kamerazugriff</h3>
+      <p>
+        Die App benötigt Zugriff auf die Kamera, um Fotos von Pflanzen aufzunehmen, die zur Pflanzenidentifikation verwendet werden können. Die Fotos werden nur mit Ihrer ausdrücklichen Zustimmung an externe Dienste übermittelt.
+      </p>
+    </section>
+    
+    <section>
+      <h2>5. Datenübermittlung an Dritte</h2>
+      <h3>5.1 Pl@ntNet API</h3>
+      <p>
+        Wenn Sie die Pflanzenidentifikationsfunktion nutzen, werden Pflanzenfotos an die Pl@ntNet API übermittelt. Pl@ntNet verwendet diese Daten zur Pflanzenidentifikation und möglicherweise zur Verbesserung ihres Dienstes. Weitere Informationen finden Sie in den Datenschutzrichtlinien von Pl@ntNet: <a href="https://plantnet.org/en/privacy-policy/" target="_blank">https://plantnet.org/en/privacy-policy/</a>
+      </p>
+      <h3>5.2 OpenAI API</h3>
+      <p>
+        Die App verwendet die OpenAI API (ChatGPT und DALL-E) für folgende Funktionen:<br>
+        - Generierung von Pflegehinweisen für Pflanzen<br>
+        - Erzeugung von Gartenvisualisierungen<br>
+        - Erstellung von Pflegeaufgaben-Listen<br>
+        - Analyse von Blühzeiten und Gartenkomposition<br>
+        Bei der Nutzung dieser Funktionen werden relevante Pflanzendaten (z. B. Namen, Pflegehinweise, Standortbedingungen) an OpenAI übermittelt, das diese Daten gemäß ihrer Datenschutzrichtlinie verarbeitet. Weitere Informationen finden Sie hier: <a href="https://openai.com/privacy/" target="_blank">https://openai.com/privacy/</a>
+      </p>
+    </section>
+    
+    <section>
+      <h2>6. Speicherdauer</h2>
+      <p>
+        Alle in der App gespeicherten Daten verbleiben auf Ihrem Gerät, bis Sie diese manuell löschen oder die App deinstallieren. Daten, die an Drittanbieter übermittelt werden, unterliegen deren jeweiligen Datenschutzbestimmungen und Speicherfristen.
+      </p>
+    </section>
+    
+    <section>
+      <h2>7. Ihre Rechte</h2>
+      <p>
+        Sie haben das Recht:<br>
+        - <strong>Auf Auskunft:</strong> Über die von Ihnen gespeicherten personenbezogenen Daten.<br>
+        - <strong>Auf Berichtigung:</strong> Unrichtiger oder unvollständiger Daten.<br>
+        - <strong>Auf Löschung:</strong> Ihrer personenbezogenen Daten.<br>
+        - <strong>Auf Einschränkung:</strong> Der Verarbeitung Ihrer Daten.<br>
+        - <strong>Auf Widerspruch:</strong> Gegen die Verarbeitung Ihrer Daten.<br>
+        - <strong>Auf Datenübertragbarkeit:</strong> In einem strukturierten, gängigen und maschinenlesbaren Format.<br>
+        Außerdem können Sie sich bei der zuständigen Aufsichtsbehörde beschweren, wenn Sie der Meinung sind, dass die Verarbeitung Ihrer Daten gegen geltendes Datenschutzrecht verstößt.
+      </p>
+    </section>
+    
+    <section>
+      <h2>8. Datensicherheit</h2>
+      <p>
+        Die App verwendet moderne Sicherheitsmaßnahmen, um Ihre Daten zu schützen:<br>
+        - API-Schlüssel werden in der sicheren Flutter Secure Storage gespeichert.<br>
+        - Die Kommunikation mit externen APIs erfolgt verschlüsselt über HTTPS.<br>
+        - Es werden keine zusätzlichen Nutzungs- oder Analysedaten gesammelt.
+      </p>
+    </section>
+    
+    <section>
+      <h2>9. Automatisierte Entscheidungsfindung</h2>
+      <p>
+        Sofern automatisierte Entscheidungsprozesse (z. B. durch KI-gestützte Funktionen) eingesetzt werden, erfolgt dies ausschließlich zur Optimierung der App-Funktionalitäten. Diese Entscheidungen haben keine rechtliche oder erhebliche individuelle Wirkung.
+      </p>
+    </section>
+    
+    <section>
+      <h2>10. Cookies und Tracking</h2>
+      <p>
+        Die App verwendet keine Cookies oder vergleichbare Tracking-Technologien. Sollten zukünftig solche Technologien eingesetzt werden, erfolgt dies nur nach erneuter Information und mit Ihrer Einwilligung.
+      </p>
+    </section>
+    
+    <section>
+      <h2>11. Export und Import von Daten</h2>
+      <p>
+        Die App bietet Funktionen zum Export und Import von Gartendaten. Diese Daten werden verschlüsselt und komprimiert übertragen. Bitte stellen Sie sicher, dass Sie diese Daten nur mit vertrauenswürdigen Empfängern teilen.
+      </p>
+    </section>
+    
+    <section>
+      <h2>12. Änderungen dieser Datenschutzerklärung</h2>
+      <p>
+        Diese Datenschutzerklärung kann gelegentlich aktualisiert werden. Wir empfehlen Ihnen, diese Erklärung regelmäßig zu überprüfen, um stets über den Schutz Ihrer Daten informiert zu bleiben.
+      </p>
+    </section>
+    
+    <section>
+      <h2>13. Kontakt</h2>
+      <p>
+        Bei Fragen zur Verarbeitung Ihrer Daten oder zur Ausübung Ihrer Rechte kontaktieren Sie bitte:<br>
+        <strong>Verantwortliche Stelle:</strong><br>
+        Philipp Loer<br>
+        Ezzostraße 3, 53359 Rheinbach <br>
+        p.loer@icloud.com<br>
+      </p>
+    </section>
+    
+    <section>
+      <p><em>Stand: 16. März 2025</em></p>
     </section>
   </main>
   <footer>
